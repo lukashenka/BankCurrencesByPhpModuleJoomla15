@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>BankCurrencesBy</name>
+    <author>Karachun Eugene</author>
+    <creationDate>February 2013</creationDate>
+    <copyright>Karachun Eugene</copyright>
+    <license>MIT</license>
+    <authorEmail>karachungen@gmail.com</authorEmail>
+    <authorUrl>null</authorUrl>
+    <version>1.0b</version>
+    <description>Module for Joomla 1.5 result bank currences by Baranovichi
+        Used Jquery 1.9
+        
+    </description>
+    <files>
+        <filename module="mod_currencies">mod_currencies.php</filename>
+        <filename module="mod_currencies">mod_currencies.xml</filename>
+        <filename module="mod_currencies">helper.php</filename>
+        <filename module="mod_currencies">tmpl\default.php</filename>
+        <filename module="mod_currencies">js\banklist.js</filename>
+        <filename module="mod_currencies">js\jquery-1.9.0.js</filename>
+        <filename module="mod_currencies">images\trustbank.png</filename>
+        <filename module="mod_currencies">images\paritetbank.png</filename>
+        <filename module="mod_currencies">images\belrosbank.jpg</filename>
+        <filename module="mod_currencies">images\bpsb.png</filename>
+        <filename module="mod_currencies">images\ideabank.png</filename>
+        <filename module="mod_currencies">images\rrb.jpg</filename>
+         <filename module="mod_currencies">images\bveb.png</filename>
+        <filename module="mod_currencies">css\currenciesTable.css</filename>
+    </files>
+    <params>
+	
+        <param name="tableWidth" type="text" default="700" label="Width of table" description="Width of table" />
+        <param name="linkTrustbank" type="text" default="#" label="href to Trusted bank" description="" />
+        <param name="linkParitetbank" type="text" default="#" label="href to Paritet bank" description="" />
+        <param name="linkBelrosbank" type="text" default="#" label="href to BelrosBank bank" description="" />
+        <param name="linkBpsbank" type="text" default="#" label="href to Bps - bank" description="" />
+        <param name="linkSombelbamk" type="text" default="#" label="href to Sombelbank" description="" />
+        <param name="linkRrbbank" type="text" default="#" label="href to Rrb bank" description="" />
+        <param name="linkBelvbank" type="text" default="#" label="href to Belvbank bank" description="" />
+		
+    </params>
+
+</install>

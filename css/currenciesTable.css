@@ -1,0 +1,84 @@
+curs_table*
+{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana;
+    color:black;
+}
+
+.curs_table td {
+
+padding: 5px;
+border-bottom: 2px solid rgb(255, 255, 255);
+border-right: 2px solid rgb(252, 252, 252);
+}
+
+.curs_table {
+background: rgb(253, 253, 253);
+border: 1px solid rgb(126, 160, 113);
+
+box-shadow: 1px 0px 9px rgb(223, 220, 220);
+-moz-box-shadow: 1px 0px 9px rgb(223, 220, 220);
+-webkit-box-shadow: 1px 0px 9px rgb(223, 220, 220);
+}
+
+.bankslist:hover {
+background: rgb(232, 255, 224);
+border: 1px solid rgb(126, 160, 113);
+
+box-shadow: 1px 0px 9px rgb(223, 220, 220);
+-moz-box-shadow: 1px 0px 9px rgb(223, 220, 220);
+-webkit-box-shadow: 1px 0px 9px rgb(223, 220, 220);
+}
+
+.bank_phone {
+display: none;
+color: gray;
+font-size: 10px;
+margin-left: 43px;
+}
+
+.bank_addr {
+display: none;
+color: rgb(87, 87, 87);
+margin-left: 33px;
+}
+
+.bestCurrences {
+background: rgb(252, 252, 132);
+}
+
+.currenncesHeadTable {
+background: rgb(123, 230, 191);
+color: rgb(0, 0, 0);
+font-weight: bold;
+text-align: center;
+}
+
+.bank_name {
+font-weight: bold;
+margin-left: 15px;
+}
+
+.bank_name img {
+padding-right: 12px;
+margin-top: 9px;
+}
+
+.maximin {
+background: rgb(255, 216, 10);
+
+}
+
+.fulltext {
+font-size: 17px;
+color: rgb(51, 124, 80);
+font-family: Verdana;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+.bankslist.gray {
+background: rgb(233, 233, 233);
+}
